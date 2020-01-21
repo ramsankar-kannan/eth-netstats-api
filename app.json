@@ -1,0 +1,24 @@
+[
+  {
+    "name"              : "ionixx-chain",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "production",
+      "RPC_HOST"        : "34.231.117.156",
+      "RPC_PORT"        : "64222",
+      "LISTENING_PORT"  : "64246",
+      "INSTANCE_NAME"   : "IONIXX_Main_Node",
+      "CONTACT_DETAILS" : "",
+      "WS_SERVER"       : "http://0.0.0.0:3000",
+      "WS_SECRET"       : "private",
+      "VERBOSITY"       : 2
+    }
+  }
+]
